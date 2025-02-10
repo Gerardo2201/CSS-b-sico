@@ -1,0 +1,65 @@
+/*selector universal */
+*{
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  color: antiquewhite#fff;
+}
+/*selector normal */
+body{
+  background-color: red;
+  height: 100vh;
+}
+/*selector de clase */
+.fondo{
+  background-color: blueviolet;
+}
+/*selector de identificador (id) */
+#parrafo{
+  font-size: 50px;
+  color: blueviolet;
+}
+
+/*selector de atributos*/
+[href]{
+  text-decoration: none;
+  font: 80px;
+  color: blue;
+  
+}
+
+[href="http://sofiaplus.com"]{
+  color: red;
+}
+
+/*Selector de etiquetas*/
+input{
+  height: 60px;
+  width: 100%;
+}
+
+/*Atributos*/
+[type="text"]{
+  color: red;
+  background-color: yellow;
+}
+
+[type="email"]{
+  color: yellow;
+  background-color: blue;
+}
+
+[type="number"]{
+  color: burlywood;
+  background-color: red;
+}
+/*Signos regulares, el que termina $*/
+[href$=".org"]{
+  color: yellow;
+}
+/*Signos regulares, el que empieza ^*/
+[href^="https"]{
+  color: blue;
+}
+
+
